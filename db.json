@@ -1,18 +1,20 @@
 {
   "clientes": [
     {
-      "id": 1,
       "nombre": "Nacho",
-      "telefono": 102013313,
+      "empresa": "Athena",
       "email": "nacho@athenea.com",
-      "empresa": "Athena"
+      "telefono": "102013313",
+      "notas": "asdas",
+      "id": 1
     },
     {
-      "id": 2,
-      "nombre": "Trini",
-      "telefono": 138198313,
+      "nombre": "Trinidad",
+      "empresa": "Art.decoraciones",
       "email": "trini@artdecp.com",
-      "empresa": "Art.decoraciones"
+      "telefono": "138198313",
+      "notas": "Nota",
+      "id": 2
     },
     {
       "id": 3,

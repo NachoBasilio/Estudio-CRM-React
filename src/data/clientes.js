@@ -28,3 +28,18 @@ export async function agregarCliente(datos){
         console.log(error)
     }
 }
+
+export async function actualizarCliente(datos, id){
+    try {
+        const respuesta = await fetch(url+"/"+id, {
+            method: 'PUT',
+            body: JSON.stringify(datos),
+            headers:{
+                'Content-Type': 'application/json'
+            }
+        })
+        await respuesta.json()
+    } catch (error) {
+        console.log(error)
+    }
+}
