@@ -24,6 +24,9 @@ Este proyecto se centra en la implementación de un sistema CRM (Customer Relati
 
 <h5 align="center" >(React Router DOM, no encontre este badge)</h5>
 
+<h3>Aquí está el <a href="https://www.notion.so/CRM-22cbaa2e925d40a99911b3370ed6b738">enlace</a> a las notas de desarrollo. Hay una sección con notas teóricas y otra con una perspectiva más personal.</h3>
+
+
 <h3> 
 Se ha aplicado la técnica de routing para conectar las diferentes vistas y permitir una navegación fluida entre ellas. Además, se han utilizado loaders y actions para manejar la información de la API, y se ha trabajado con una fake API asociada a un archivo JSON para editar la información de manera dinámica. El proyecto ha permitido adquirir nuevos conocimientos y habilidades, y ha sido especialmente interesante el trabajo con loaders, actions y la fake API.
 </h3>
