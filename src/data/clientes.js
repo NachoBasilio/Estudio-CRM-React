@@ -43,3 +43,14 @@ export async function actualizarCliente(datos, id){
         console.log(error)
     }
 }
+
+export async function eliminarCliente(id){
+    try {
+        const respuesta = await fetch(url+"/"+id, {
+            method: 'DELETE',
+        })
+        await respuesta.json()
+    } catch (error) {
+        console.log(error)
+    }
+}

@@ -1,22 +1,6 @@
 {
   "clientes": [
     {
-      "nombre": "Nacho",
-      "empresa": "Athena",
-      "email": "nacho@athenea.com",
-      "telefono": "102013313",
-      "notas": "asdas",
-      "id": 1
-    },
-    {
-      "nombre": "Trinidad",
-      "empresa": "Art.decoraciones",
-      "email": "trini@artdecp.com",
-      "telefono": "138198313",
-      "notas": "Nota",
-      "id": 2
-    },
-    {
       "id": 3,
       "nombre": "Juan",
       "telefono": 31983913,
@@ -29,13 +13,6 @@
       "telefono": 319381983,
       "email": "miguel@expss.com",
       "empresa": "Express"
-    },
-    {
-      "id": 5,
-      "nombre": "Taco",
-      "telefono": 1398198938,
-      "email": "Taco@pokemon.com",
-      "empresa": "Pokemon"
     },
     {
       "nombre": "Nacho desde React ",
