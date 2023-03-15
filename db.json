@@ -1,39 +1,47 @@
 {
-    "clientes" : [
-        {
-            "id": 1,
-            "nombre": "Nacho",
-            "telefono": 102013313,
-            "email": "nacho@athenea.com",
-            "empresa": "Athena"
-        },
-        {
-            "id": 2,
-            "nombre": "Trini",
-            "telefono": 138198313,
-            "email": "trini@artdecp.com",
-            "empresa": "Art.decoraciones"
-        },
-        {
-            "id": 3,
-            "nombre": "Juan",
-            "telefono": 31983913,
-            "email": "juan@juan.com",
-            "empresa": "Codigo Con Juan"
-        },
-        {
-            "id": 4,
-            "nombre": "Miguel",
-            "telefono": 319381983,
-            "email": "miguel@expss.com",
-            "empresa": "Express"
-        },
-        {
-            "id": 5,
-            "nombre": "Taco",
-            "telefono": 1398198938,
-            "email": "Taco@pokemon.com",
-            "empresa": "Pokemon"
-        }
-    ]
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Nacho",
+      "telefono": 102013313,
+      "email": "nacho@athenea.com",
+      "empresa": "Athena"
+    },
+    {
+      "id": 2,
+      "nombre": "Trini",
+      "telefono": 138198313,
+      "email": "trini@artdecp.com",
+      "empresa": "Art.decoraciones"
+    },
+    {
+      "id": 3,
+      "nombre": "Juan",
+      "telefono": 31983913,
+      "email": "juan@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 4,
+      "nombre": "Miguel",
+      "telefono": 319381983,
+      "email": "miguel@expss.com",
+      "empresa": "Express"
+    },
+    {
+      "id": 5,
+      "nombre": "Taco",
+      "telefono": 1398198938,
+      "email": "Taco@pokemon.com",
+      "empresa": "Pokemon"
+    },
+    {
+      "nombre": "Nacho desde React ",
+      "empresa": "Athenea",
+      "email": "ignacio.n.basilio.b@gmail.com",
+      "telefono": "3426109449",
+      "notas": "El cliente",
+      "id": 6
+    }
+  ]
 }

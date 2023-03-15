@@ -4,7 +4,7 @@ import { obtenerClientes } from "../data/clientes";
 
 export function loader(){
   
- // return obtenerClientes()
+  return obtenerClientes()
 }
 
 export default function Index() {
