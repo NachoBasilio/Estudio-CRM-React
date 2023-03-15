@@ -1,24 +1,133 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Archivos del sistema
+######################
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
+Thumbs.db
+Desktop.ini
+
+# Carpetas de configuración del sistema
+#######################################
+.metadata
+.vscode/
+.idea/
+*.tmproj
+*.sublime*
+
+# Archivos de registro
+######################
+*.log
+*.log.*
+
+# Archivos temporales
+#####################
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Paquetes y dependencias
+##########################
+node_modules/
+bower_components/
+vendor/
+
+# Carpetas de compilación y distribución
+########################################
+dist/
+build/
+out/
+release/
+
+# Archivos de configuración
+###########################
+.env
+.env.*
+!.gitignore
+config/*.yml
+config/*.yaml
+
+# Archivos de cache
+###################
+*.pyc
+*.pyo
+*.egg-info/
+__pycache__/
+.cache/
+
+# Archivos específicos de lenguajes y frameworks
+#################################################
+# Python
+*.pyc
+*.pyo
+*.egg-info/
+__pycache__/
+*.pyd
+*.so
+*.dylib
+*.swp
+*.swo
+
+# Ruby
+*.gem
+*.rbc
+*.rvmrc
+.bundle/
+.db
+.yardoc/
+/vendor/cache/
+/public/system/
+/tmp/
+/spec/tmp/
+/coverage/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.ipr
+*.iws
+*.log
+
+# PHP
+composer.phar
+composer.lock
+vendor/
+
+# Node.js
+npm-debug.log
+yarn-error.log
+.yarn-integrity
+
+# Otros
+####################
 *.sln
-*.sw?
+*.csproj
+*.vbproj
+*.vstemplate
+*.vssscc
+*.vspscc
+*.bak
+*.cache
+*.diff
+*.err
+*.orig
+*.rej
+*.suo
+*.user
+*.pidb
+*.bak
+*.swp
+*.swo
+*.vi*
+*.cache
+*.sdf
+*.opensdf
+*.cachefile
+*.suo
+*.pidb
+*.userprefs
+*.usertasks-msbuild_binary_stream
+*.pfx
+*.publishsettings
